@@ -1,0 +1,17 @@
+Source: eduice-tertiary
+Section: misc
+Priority: optional
+Maintainer: MountainOS <mountainoslinux@gmail.com>
+Homepage: mountainlinuxos.wordpress.com/eduice
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 3.9.2
+Rules-Requires-Root: no
+
+Package: eduice-tertiary
+Architecture: all
+Depends: fritzing, kdevelop, librecad, chemtool, step, scilab, rocs, labplot
+Multi-Arch: foreign
+Description: EduIce tools tertiary
+ This package installs tertairy education apps for MountainOS EduIce
+ .
+ second paragraph
